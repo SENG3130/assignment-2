@@ -1,6 +1,6 @@
 Follow these steps to run the systems:
 
-1. Open the SENG3130A1.sln file in Visual Studio (the 2017 edition was used to develop the system).
+1. Open the SENG3130A2.sln file in Visual Studio (the 2017 edition was used to develop the system).
 2. Using the project targeter in the menu at the top center of the screen, select which system you would like to run.
 3. Click the Start button, and the system will launch.
 4. If the system is interactive, the window will ask you for input. If the system is not interactive, the window will close when it is finished.
