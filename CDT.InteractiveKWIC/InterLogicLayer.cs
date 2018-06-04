@@ -46,12 +46,12 @@ namespace CDT.InteractiveKWIC
                     string recordShift = record.Substring(index + 1) + " " + record.Substring(0, index);
 
                     // Check if the first char is the end of line delimiter ( / ).
-                    if (recordShift[0] != '/')
+                    if (recordShift.Substring(0, 2) != "<>")
                     {
                         list.AddLast(recordShift);
                     }
                     // Remove end of line delimeter and send to output queue
-                    output.AddLast(recordShift.Replace("/ ", "").Replace(" /", ""));
+                    output.AddLast(recordShift.Replace("<> ", "").Replace(" <>", ""));
                 }
             }
             return output;
@@ -87,6 +87,11 @@ namespace CDT.InteractiveKWIC
                         {
                             LinkedListNode<string> node = output.Find(nodeVal);
                             output.AddBefore(node, record);
+                            insertted = true;
+                            break;
+                        }
+                        else if (string.Compare(record, nodeVal) == 0)
+                        {
                             insertted = true;
                             break;
                         }

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDT.BlackBoard", "CDT.Black
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDT.InteractiveKWIC", "CDT.InteractiveKWIC\CDT.InteractiveKWIC.csproj", "{81E6E840-96F1-4AE9-9BBC-B05A063F4C45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveKWIC_Test", "InteractiveKWIC_Test\InteractiveKWIC_Test.csproj", "{F880F028-0DD8-44A9-9AE5-D04BB83FA31D}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CDT.Core\CDT.Core.projitems*{33b3835e-136d-48c5-869a-af47466b8213}*SharedItemsImports = 4
@@ -55,6 +57,10 @@ Global
 		{81E6E840-96F1-4AE9-9BBC-B05A063F4C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E6E840-96F1-4AE9-9BBC-B05A063F4C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E6E840-96F1-4AE9-9BBC-B05A063F4C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F880F028-0DD8-44A9-9AE5-D04BB83FA31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F880F028-0DD8-44A9-9AE5-D04BB83FA31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F880F028-0DD8-44A9-9AE5-D04BB83FA31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F880F028-0DD8-44A9-9AE5-D04BB83FA31D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -64,12 +64,12 @@ namespace CDT.InteractiveKWIC
 
         private void addLine(string line)
         {
-            basicList.AddLast(line + " /");
+            basicList.AddLast(line + " <>");
         }
 
         private void deleteLine(string line)
         {
-            basicList.Remove(line + " /");
+            basicList.Remove(line + " <>");
         }
 
         private void printKWIC()
