@@ -17,9 +17,9 @@ namespace CDT.Core
 
         public Outputter(string[] args)
         {
-            if (args.Length > 1)
+            if (args.Length == 2)
             {
-                FileName = "../../../" + args[2];
+                FileName = "../../../" + args[1];
             }
 
             else

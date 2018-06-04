@@ -5,11 +5,7 @@
 //
 // Notes: 
 
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CDT.Core;
 
 namespace CDT.ADT
@@ -18,7 +14,20 @@ namespace CDT.ADT
     {
         static void Main(string[] args)
         {
-            Inputter input = new Inputter(args);
+            Inputter input;
+
+            // If there is no input specified, or there is a single argument, load the input from a file.
+            if (args.Length <= 2)
+            {
+                input = new Inputter(args);
+            }
+
+            // Otherwise the input is specified as a string, with a prefix "string", so skip the first argument and load the rest.
+            else
+            {
+                input = new StringInputter(args.Skip(1).ToArray());
+            }
+
             Rotator rot = new Rotator();
             Indexor idx = new Indexor();
             Outputter output = new Outputter(args);

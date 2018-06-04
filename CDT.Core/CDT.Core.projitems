@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Indexor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringInputter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Inputter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Outputter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rotator.cs" />
