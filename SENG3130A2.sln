@@ -28,6 +28,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreMethodTests", "CoreMeth
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CDT.Core\CDT.Core.projitems*{0e8f8006-8db1-4b9e-9eba-195e0bd4aa0f}*SharedItemsImports = 4
 		CDT.Core\CDT.Core.projitems*{202fd167-1368-4b9c-bc59-078a4b38e142}*SharedItemsImports = 4
 		CDT.Core\CDT.Core.projitems*{33b3835e-136d-48c5-869a-af47466b8213}*SharedItemsImports = 4
 		CDT.Core\CDT.Core.projitems*{841f1611-4a76-401c-b741-85877da2c06e}*SharedItemsImports = 13
