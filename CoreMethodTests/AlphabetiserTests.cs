@@ -11,7 +11,7 @@ namespace CoreMethodTests
     {
 
         [Test]
-        public void test_1()
+        public void alphabetiser_test_1()
         {
             CoreSorter sorter = new CoreSorter();
 
@@ -27,7 +27,7 @@ namespace CoreMethodTests
         }
 
         [Test]
-        public void test_2()
+        public void alphabetiser_test_2()
         {
             CoreSorter sorter = new CoreSorter();
 
@@ -45,7 +45,7 @@ namespace CoreMethodTests
         }
 
         [Test]
-        public void test_3()
+        public void alphabetiser_test_3()
         {
             CoreSorter sorter = new CoreSorter();
 

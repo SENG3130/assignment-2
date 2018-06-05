@@ -10,7 +10,7 @@ namespace CoreMethodTests
     {
 
         [Test]
-        public void test_1()
+        public void c_shift_test_1()
         {
             Rotator rotator = new Rotator();
 
@@ -26,7 +26,7 @@ namespace CoreMethodTests
         }
 
         [Test]
-        public void test_2()
+        public void c_shift_test_2()
         {
             Rotator rotator = new Rotator();
 
@@ -45,7 +45,7 @@ namespace CoreMethodTests
         }
 
         [Test]
-        public void test_3()
+        public void c_shift_test_3()
         {
             Rotator rotator = new Rotator();
 
